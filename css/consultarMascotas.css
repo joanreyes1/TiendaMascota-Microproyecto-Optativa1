@@ -1,0 +1,131 @@
+
+ 
+body {
+    background-position: center center;   
+    background-attachment: fixed;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(255, 255, 255);
+    
+}
+table.list{
+    width:100%;
+    
+}
+
+td, th {
+    font-weight: bold;
+    border: 1px solid #141414;
+    text-align: left;
+    padding: 8px;
+    font-style: oblique;
+    
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #ffffff;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: rgb(223, 219, 219);
+    color: rgb(10, 10, 10);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+form div.form-action-buttons{
+    text-align: right;
+    
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+select{
+ border-radius: 5px;
+ font-weight: inherit;
+ width: auto;
+}
+
+.fecha{
+    margin: 15px;
+    
+}
+
+.alert1, .alert2, .alert3 {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 90px;
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #03061d;
+}
+
+
+
+
+  .formulario {
+    width: 300px;
+    height: 45px;
+    text-decoration-color: black;
+    border: black;
+    font-size: 13pt;
+    color: #0a0a0a;
+    padding-left: 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    
+  }
+  table {
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td { 
+    padding: 5px 10px;
+    text-align: center;
+    border: 1px solid #999;
+}
+
+tr:nth-child(1) {
+    background: #dedede;
+}
+  
